@@ -1,0 +1,48 @@
+#contact{
+    background: #f8f8f8;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Heading styling */
+h3 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for the social media icons container */
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Space between icons */
+}
+
+/* Styling for the individual icons */
+.logo a {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+.logo a:hover {
+    color: #0077b5; /* Example hover color for Facebook, you can customize for each icon */
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* You can add specific colors for each icon here */
+.logo a:nth-child(1):hover {
+    color: #4267B2; /* Facebook blue */
+}
+
+.logo a:nth-child(2):hover {
+    color: #C13584; /* Instagram pink */
+}
+
+.logo a:nth-child(3):hover {
+    color: #25D366; /* WhatsApp green */
+}

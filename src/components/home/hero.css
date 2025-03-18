@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image img{
+    display: block;
+    background-image: url(./digital_and_online_learning.png.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      margin-right: 10px;
+    height: 80vh;
+    width: 100%;
+}
+.text{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: -340px;
+}
+.text h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.text p{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+.btn{
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px 20px;
+    font-size: 17px;
+    color: white;
+    background-color: slateblue; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn:hover{
+    background-color:blueviolet;
+}
