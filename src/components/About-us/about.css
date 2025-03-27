@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.right-img {
+    float: right;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.content{
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 30px;
+}
+.content h3{
+    font-size: 25px;
+    color: black;
+}
+.content p{
+    font-size: 20px;
+    color: black;
+}
+.the-points{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 40px;
+}
